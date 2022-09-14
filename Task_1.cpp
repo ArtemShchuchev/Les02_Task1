@@ -2,7 +2,7 @@
 
 enum class Month {JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OKT, NOV, DEC};
 short userInput();
-void printMonth(short);
+void printMonth(const short);
 
 int main(int argc, char** argv)
 {
@@ -41,7 +41,7 @@ short userInput()
 
     return userNum;
 }
-void printMonth(short user)
+void printMonth(const short user)
 {
     using namespace std;
 
